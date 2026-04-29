@@ -1,0 +1,10 @@
+} // closes drawDuke
+function loop() { update(); draw(); requestAnimationFrame(loop); }
+function draw() {
+  ctx.clearRect(0,0,W,H);
+  // ... rest of drawing logic
+}
+loop();
+</script>
+</body>
+</html>
